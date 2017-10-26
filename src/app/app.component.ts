@@ -4,6 +4,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+// import { ListsPage } from './../pages/lists/lists';
+// import { GridsPage } from './../pages/grids/grids';
+// import { GesturesPage } from './../pages/gestures/gestures';
+
 @Component({
   templateUrl: 'app.html'
 })

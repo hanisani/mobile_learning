@@ -1,14 +1,34 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <app-touch-event></app-touch-event>
+
+    <button ion-button color="secondary" (click)="onClick()">Secondary</button>
+    <button ion-button outline>Outline</button>
+    <button ion-button clear>Clear</button>
+    <button ion-button round>Round</button>
+    <button ion-button block>Block</button>
+    <button ion-button full>Full</button>
+    <button ion-button small>Small</button>
+    <button ion-button large>Large</button>
+    <button ion-button>
+      <ion-icon name="home"></ion-icon>
+    </button>
+    <button ion-button icon-only>
+      <ion-icon name="search"></ion-icon>
+    </button>
+    <button ion-button icon-left>
+      <ion-icon name="contact"></ion-icon>
+      Home
+    </button>
+    <button ion-button icon-right>
+        Home
+      <ion-icon name="contact"></ion-icon>      
+    </button>
 </ion-content>

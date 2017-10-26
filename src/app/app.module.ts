@@ -6,11 +6,19 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { ListsPage } from './../pages/lists/lists';
+import { GridsPage } from './../pages/grids/grids';
+import { GesturesPage } from './../pages/gestures/gestures';
+import { TouchEventComponet } from './../components/touch-event.component';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    ListsPage,
+    GridsPage,
+    GesturesPage,
+    TouchEventComponet
   ],
   imports: [
     BrowserModule,
@@ -19,7 +27,10 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    ListsPage,
+    GridsPage,
+    GesturesPage
   ],
   providers: [
     StatusBar,
